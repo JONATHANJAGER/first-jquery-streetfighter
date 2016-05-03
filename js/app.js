@@ -12,7 +12,13 @@ $(document).ready(function() {
     // play hadouken sound
     $('.ryu-ready').hide();
   $('.ryu-throwing').show();
-  $('.hadouken').show();
+  $('.hadouken').show().animate(
+    {'letf': '1020px'}, 500,
+    function(){
+      $(this).hide();
+      $(this).css('left','520px');
+    }
+    );
     // show hadouken and animate it to the right of the screen
   })
   .mouseup(function() {
