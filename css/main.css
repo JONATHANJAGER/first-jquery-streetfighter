@@ -54,4 +54,6 @@ body {
   top: 165px;
   left: 595px;
 }
-
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+}
